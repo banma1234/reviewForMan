@@ -8,7 +8,7 @@ module.exports = merge(common, {
     open: false,
     hot: true,
     compress: true,
-    port: 8081,
+    port: process.env.CLIENT_PORT,
     historyApiFallback: true,
     liveReload: true,
   },
